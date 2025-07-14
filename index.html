@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+
+        <div class="score-board">
+            <div class="badge" id="user-label">You</div>
+            <div class="badge" id="comp-label">Comp</div>
+            <span id="user-score">0</span>:<span id="comp-score">0</span>
+        </div>
+
+        <div class="result">
+            <p id="result-text">Choose your weapon!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="rock">
+                <i class="fas fa-hand-rock"></i>
+                <span>Rock</span>
+            </div>
+            <div class="choice" id="paper">
+                <i class="fas fa-hand-paper"></i>
+                <span>Paper</span>
+            </div>
+            <div class="choice" id="scissors">
+                <i class="fas fa-hand-scissors"></i>
+                <span>Scissors</span>
+            </div>
+        </div>
+
+        <div class="game-history">
+            <h3>Game History</h3>
+            <div id="history-list"></div>
+        </div>
+
+        <button id="reset-btn">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
